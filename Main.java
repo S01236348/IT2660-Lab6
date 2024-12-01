@@ -42,7 +42,7 @@ class Main {
     System.out.println("Current values in map:");
     java.util.Set<MyMap.Entry<String, Integer>> entries = creditHours.entrySet();
     for (MyMap.Entry<String, Integer> entry: entries){
-      System.out.println(entry.key);
+      System.out.println(entry.key + ", " + entry.value);
       }
 
     // Remove IT-2030 and IT-1150
@@ -55,7 +55,7 @@ class Main {
     entries = creditHours.entrySet();
 
     for (MyMap.Entry<String, Integer> entry: entries){
-      System.out.println(entry.key);
+      System.out.println(entry.key + ", " + entry.value);
       }
 
   }
